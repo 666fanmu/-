@@ -45,23 +45,31 @@
     <Analyzer Include="E:\Unity_engine\2022.3.5f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemies\Boar\BoarPatrolState.cs" />
      <Compile Include="Assets\Scripts\General\PhysicsCheck.cs" />
      <Compile Include="Assets\Scripts\General\HurtAnimation.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bee\BeePatrolState.cs" />
      <Compile Include="Assets\Scripts\General\Attack.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Base\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Boar\Boar.cs" />
      <Compile Include="Assets\Scripts\Players\PlayAnimation.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Base\BaseState.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Boar\BoarRushState.cs" />
+     <Compile Include="Assets\Scripts\Tools\Enums.cs" />
      <Compile Include="Assets\Scripts\General\Character.cs" />
-     <Compile Include="Assets\Scripts\enemies\Enemy.cs" />
-     <Compile Include="Assets\Scripts\enemies\Boar.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bee\Bee.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Bee\BeeRushState.cs" />
      <Compile Include="Assets\Settings\Input System\InputControl.cs" />
      <Compile Include="Assets\Scripts\General\AttackFinish.cs" />
      <Compile Include="Assets\Scripts\Players\PlayerControler.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Assets\Backgrounds\Mob\Boar" />
+     <Folder Include="Assets\Scripts\Enemies\Bee" />
      <Folder Include="Assets\Assets\Map\titles" />
      <Folder Include="Assets\Assets\Characters" />
      <Folder Include="Assets\Assets\UI Elements\White\1x" />
      <Folder Include="Assets\Settings" />
-     <Folder Include="Assets\Scripts\enemies" />
+     <Folder Include="Assets\Scripts\Enemies" />
      <Folder Include="Assets\Assets\UI Elements\Black\1x" />
      <Folder Include="Assets\Assets\Backgrounds\Mob\Small Bee\Hit" />
      <Folder Include="Assets\Assets\Backgrounds" />
@@ -109,9 +117,12 @@
      <Folder Include="Assets\Assets\UI Elements\White" />
      <Folder Include="Assets\Assets\Backgrounds\Character\Run" />
      <Folder Include="Assets\Assets\Backgrounds\Assets" />
+     <Folder Include="Assets\Scripts\Enemies\Boar" />
      <Folder Include="Assets\Assets\UI Elements\Extras\Rects" />
+     <Folder Include="Assets\Scripts\Tools" />
      <Folder Include="Assets\Assets\Map\Animatl Titles" />
      <Folder Include="Assets\Assets\Map" />
+     <Folder Include="Assets\Scripts\Enemies\Base" />
      <Folder Include="Assets\Assets\Characters\png" />
      <Folder Include="Assets\Scripts\Players" />
      <Folder Include="Assets\Assets\Backgrounds\Character\Jump" />
@@ -122,6 +133,7 @@
      <Folder Include="Assets\Assets\Map\Role Titles" />
      <Folder Include="Assets\Animations\Characcter" />
      <Folder Include="Assets\Assets\UI Elements\Black" />
+     <Folder Include="Assets\Animations\Enemies\Bee" />
      <Reference Include="UnityEngine">
      <HintPath>E:\Unity_engine\2022.3.5f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
